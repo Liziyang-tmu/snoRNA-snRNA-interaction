@@ -22,7 +22,7 @@ module load samtools
 	rm -f $Outprefix'_nonchimeric_temp.sam' $Outprefix'_chimeric_temp.sam' $Outprefix'_nonchimeric_pri.bam' $Outprefix'_nonchimeric_pri.sam' 
 
 	## divide alignments to different types
-	python $ScriptPath/gaptypes.py $Outprefix'_pri.sam' $Outprefix'_pri' -1 15 1
+	python $ScriptPath/gaptypes_20231108.py $Outprefix'_pri.sam' $Outprefix'_pri' -1 15 1
 
 	## remove splice junction alignments
 	python $ScriptPath/gapfilter.py $Gtf $Outprefix'_prigap1.sam' $Outprefix'_prigap1_filtered.sam' 11 yes 
