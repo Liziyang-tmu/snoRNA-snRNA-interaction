@@ -1,0 +1,13 @@
+KARR_K562_rep2_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+PARIS_rep1_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+PARIS_rep2_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+PARIS_rep3_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+SMNDC1_input_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+SMNDC1_ip_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+KARR_HepG2_rep1_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+KARR_K562_rep1_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+LARP7_input_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+LARP7_ip_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+NOLC1_input_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+NOLC1_ip_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
+KARR_HepG2_rep2_merged_crssant_sorted.bam filter=lfs diff=lfs merge=lfs -text
